@@ -1,0 +1,777 @@
+2024-04-18T13:32:15.845+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T13:34:09.788+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T13:34:21.784+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost50060"}
+2024-04-18T13:34:42.067+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T13:36:27.176+0500	INFO	app/main.go:32	Listen: 	{"address": "localhost:50060"}
+2024-04-18T13:37:50.368+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T13:38:04.085+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T13:38:04.086+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-18T16:23:10.761+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T16:27:15.968+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T16:27:21.769+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T16:31:27.751+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T16:31:27.751+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-18T16:31:29.304+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T16:35:49.621+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T16:35:49.622+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-18T16:35:51.170+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T16:53:53.996+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T16:53:53.996+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-18T16:53:55.529+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T16:53:58.117+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T16:53:58.118+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-18T16:54:18.366+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T17:03:09.366+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T17:03:09.367+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-18T17:03:10.893+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T17:05:26.329+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T17:05:26.330+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-18T17:05:27.962+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-18T17:17:04.643+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-18T17:17:04.644+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T12:10:13.563+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T12:10:20.444+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T12:10:20.444+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T13:31:52.535+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T13:54:23.131+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T13:54:23.134+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T14:04:04.878+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T14:04:49.459+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T14:04:49.460+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T14:04:51.082+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T14:36:24.565+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T14:36:24.565+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T14:52:36.122+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T14:52:43.388+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 0  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjhhg","last_name":"strikjhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T14:55:20.787+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 1  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjhhg","last_name":"strikjhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T15:23:44.158+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 2  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjhhg","last_name":"strikjhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T15:25:14.819+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 3  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T15:29:24.139+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T15:29:24.139+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T15:29:31.992+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T15:29:40.798+0500	INFO	kafka/producer.go:36	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 4  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T15:30:49.932+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T15:30:49.933+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T15:30:53.484+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T15:30:57.522+0500	INFO	kafka/producer.go:36	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 5  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T15:31:19.381+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T15:31:19.382+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T15:31:20.921+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T15:31:28.949+0500	INFO	kafka/producer.go:36	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 6  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T15:59:55.373+0500	INFO	kafka/producer.go:36	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 7  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T16:50:47.527+0500	INFO	kafka/producer.go:36	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 8  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T16:58:58.083+0500	INFO	kafka/producer.go:36	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 9  <nil>} {key 15 0 user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T18:05:38.096+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T18:05:38.097+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T18:05:39.845+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T18:05:45.077+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 10  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T18:11:58.705+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 11  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkjsdfhhg","last_name":"strikjsdhgfng","email":"strlkjhgfsing","password":"strkjhgfging"} <nil>}
+2024-04-19T18:12:26.883+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 12  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkj;aslkdfjsdfhhg","last_name":"st;;laksdjfrikjsdhgfng","email":"strlk;laksjdfjhgfsing","password":"strkjh;alksfgfging"} <nil>}
+2024-04-19T18:35:27.925+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T18:35:27.925+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T19:00:11.562+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T19:02:26.430+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T19:02:26.431+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T19:02:28.161+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T19:02:53.727+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T19:02:53.728+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T19:02:55.206+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T19:03:20.226+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T19:03:20.226+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T19:03:22.057+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T19:03:45.351+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 13  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"f28db8df-e876-42e3-bdd2-07360495396a","name":"string;lkj;aslkdfjsdfhhg","last_name":"st;;laksdjfrikjsdhgfng","email":"strlk;laksjdfjhgfsing","password":"strkjh;alksfgfging"} <nil>}
+2024-04-19T19:26:42.256+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T19:26:42.256+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T21:19:05.621+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T21:23:43.889+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-19T21:23:43.890+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-19T21:23:45.293+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-19T21:23:54.403+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 14  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"c7a41705-59df-472a-9cfa-b8cb7a3a83a1","name":"string","last_name":"stlksjdfhring","email":"string","password":"string"} <nil>}
+2024-04-25T12:48:24.258+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-25T14:58:36.626+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-25T15:02:37.739+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-25T15:02:37.740+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-25T15:02:39.277+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-25T15:13:16.390+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-25T15:13:16.390+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-25T15:13:21.920+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-25T16:39:11.072+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-25T16:39:11.074+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-25T16:39:37.273+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-25T18:14:58.178+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-25T18:14:58.179+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-26T21:19:06.661+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-26T21:54:28.731+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-26T21:54:28.731+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-26T21:54:30.800+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-30T11:44:08.444+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-30T11:44:59.162+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-30T11:44:59.163+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-30T11:45:11.209+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-30T11:46:33.036+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 0  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"5eb3e29c-32ef-4173-8419-e227a9dbabef","name":"stdddddring","last_name":"stdddddring","email":"stdddddring","password":"stdddddring"} <nil>}
+2024-04-30T11:47:35.785+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-30T11:47:35.785+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-30T13:25:56.862+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-30T13:42:12.289+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-30T13:42:12.289+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-30T13:42:13.920+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-30T13:49:14.402+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-30T13:49:14.403+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-30T13:49:15.933+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-30T13:49:23.324+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 1  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T13:51:55.010+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 2  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:22:01.966+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 3  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:30:43.249+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 4  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:33:52.954+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 5  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:36:12.042+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 6  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:51:11.961+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 7  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:51:42.825+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 8  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:53:30.694+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 9  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:54:29.352+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 10  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:55:24.131+0500	INFO	app/main.go:41	api gateway service stops
+2024-04-30T14:55:24.131+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/evrone/api_gateway/cmd/app/main.go:32
+2024-04-30T14:55:26.069+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-04-30T14:55:31.464+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 11  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:56:30.701+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 12  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T14:57:04.521+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 13  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T16:44:25.896+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 14  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T16:44:25.896+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 15  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T16:44:25.896+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 16  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T16:44:25.896+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 17  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T16:44:25.896+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 18  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T16:44:26.971+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 19  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-04-30T16:55:47.269+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 20  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-05-01T17:18:08.217+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:50060"}
+2024-05-01T17:21:39.618+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T17:21:39.618+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T17:22:54.059+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T17:27:23.492+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T17:27:23.492+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T17:27:25.791+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T18:45:16.296+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T18:48:34.200+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T18:48:34.200+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T18:48:35.799+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T18:50:38.163+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T18:50:38.163+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T18:50:39.846+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T19:06:04.354+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T19:06:04.355+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T19:06:06.109+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T19:07:48.840+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T19:07:48.840+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T19:07:50.889+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T19:09:54.931+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T19:09:54.932+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T19:10:02.942+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T19:18:42.784+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T19:18:42.784+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T19:18:44.599+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T19:23:49.544+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T19:23:49.544+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T19:23:51.381+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T19:35:42.203+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T19:35:42.204+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:05:25.720+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:20:47.910+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:20:47.910+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:20:49.444+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:28:08.041+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:28:08.042+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:28:42.007+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:31:01.063+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:31:01.064+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:31:02.724+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:32:39.088+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:32:39.089+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:32:41.938+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:37:56.150+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:37:56.150+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:39:25.582+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:43:04.053+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:43:04.053+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:43:05.622+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:51:53.778+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:51:53.778+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:51:55.325+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:56:54.797+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:56:54.798+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:56:56.520+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T20:59:39.102+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T20:59:39.102+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T20:59:40.541+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:00:00.783+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:00:00.783+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:00:02.192+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:00:24.860+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:00:24.861+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:00:26.284+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:00:35.031+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:00:35.031+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:00:37.035+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:02:08.219+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:02:08.219+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:02:09.708+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:11:13.015+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:11:13.015+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:11:14.638+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:12:51.694+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:12:51.694+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:12:53.210+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:16:06.705+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:16:06.706+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:16:10.812+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:16:47.475+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:16:47.475+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:16:48.846+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:19:02.083+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:19:02.083+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:19:03.484+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:24:53.964+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:24:53.964+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:24:55.522+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:29:01.525+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:29:01.525+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:29:03.192+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:35:58.263+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:35:58.263+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:36:01.722+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:36:50.179+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:36:50.180+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:36:52.086+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:37:13.946+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:37:13.946+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:37:15.353+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:38:40.869+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:38:40.869+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:38:42.144+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:39:07.917+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:39:07.918+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:39:08.917+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:41:15.138+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:41:15.139+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:41:25.807+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T21:46:15.203+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T21:46:15.203+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T21:46:17.954+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T22:00:16.448+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T22:00:16.448+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T22:00:18.269+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T22:06:35.461+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T22:06:35.462+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T22:06:37.194+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T22:15:27.670+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T22:15:27.671+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T22:15:29.376+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T22:17:54.837+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T22:17:54.837+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T22:17:56.445+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T22:58:07.172+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T22:58:07.173+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T22:58:08.933+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T23:03:52.033+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T23:03:52.033+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T23:03:53.632+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T23:04:53.275+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T23:04:53.275+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T23:05:05.382+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T23:07:43.904+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T23:07:43.904+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T23:07:45.479+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T23:08:15.568+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T23:08:15.568+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T23:08:17.068+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-01T23:11:01.676+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-01T23:11:01.677+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-01T23:11:03.525+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T10:30:18.646+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T10:30:18.648+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T11:40:47.814+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T11:54:14.385+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T11:54:14.386+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:08:42.359+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:36:13.228+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:36:13.228+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:36:19.585+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:38:27.614+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:38:27.614+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:38:29.327+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:40:11.079+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:40:11.079+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:40:12.682+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:41:28.824+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:41:28.824+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:41:30.384+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:45:28.577+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:45:28.577+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:45:30.446+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:51:26.752+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:51:26.752+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:51:28.405+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:56:16.880+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:56:16.880+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:56:18.540+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T13:57:03.402+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T13:57:03.403+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T13:57:05.092+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:03:03.495+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:03:03.495+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:03:05.204+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:05:42.317+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:05:42.317+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:05:43.889+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:06:12.141+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:06:12.141+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:06:13.722+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:07:02.152+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:07:02.153+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:07:03.920+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:15:53.212+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:15:53.213+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:15:54.950+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:16:57.923+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:16:57.923+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:16:59.824+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:17:37.895+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:17:37.895+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:18:00.357+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:18:40.285+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:18:40.286+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:23:49.858+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:24:38.953+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:24:38.953+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:24:40.681+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:25:58.386+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:25:58.387+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:26:00.151+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:40:20.539+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:40:20.539+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:40:22.283+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:42:23.871+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:42:23.871+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:42:25.599+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:54:26.710+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:54:26.710+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:54:29.135+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T14:58:01.415+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T14:58:01.415+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T14:58:16.766+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:16:37.110+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:16:37.119+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:16:39.439+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:25:33.026+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:25:33.026+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:25:34.557+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:32:25.701+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:32:25.704+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:32:34.633+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:34:49.687+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:34:49.687+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:34:51.034+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:36:16.899+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:36:16.899+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:36:18.025+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:38:51.043+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:38:51.044+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:38:52.257+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:45:47.163+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:45:47.164+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:45:48.899+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:47:28.816+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:47:28.817+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:47:41.799+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:51:11.250+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:51:11.251+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:51:12.516+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:55:45.367+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:55:45.368+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:55:48.974+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T15:57:00.488+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T15:57:00.488+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T15:57:01.614+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:00:01.626+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:00:01.626+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:00:02.899+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:02:00.793+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:02:00.793+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:02:02.559+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:02:30.223+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:02:30.224+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:02:31.290+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:04:16.020+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:04:16.020+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:04:20.946+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:04:53.803+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:04:53.803+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:04:54.909+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:07:58.848+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:07:58.848+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:08:04.602+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:10:51.463+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:10:51.463+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:10:52.787+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:32:48.110+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:32:48.110+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:32:49.716+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:37:05.573+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:37:05.573+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:37:07.195+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:39:15.671+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:39:15.671+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:39:17.280+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:40:32.418+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:40:32.419+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:40:44.147+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:43:00.572+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:43:00.573+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:43:02.174+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:45:12.205+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:45:12.206+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:45:13.688+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:50:52.137+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:50:52.137+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:50:53.755+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:51:41.159+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:51:41.160+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:51:42.869+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T16:54:03.928+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T16:54:03.929+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T16:54:05.569+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T17:03:23.682+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T17:16:31.230+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T17:16:31.233+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T17:16:33.080+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T17:19:04.975+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T17:19:04.975+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T17:19:10.790+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T17:32:33.784+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T17:32:33.784+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T17:32:35.444+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T17:50:56.216+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T17:50:56.216+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T17:51:10.301+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T18:16:45.536+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5002"}
+2024-05-02T18:16:45.537+0500	ERROR	app/main.go:32	app run	{"error": "listen tcp 127.0.0.1:5002: bind: address already in use"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:17:20.076+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:17:22.770+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:18:53.319+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:18:53.319+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:18:54.811+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:23:52.543+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:23:52.543+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:24:13.583+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:30:37.849+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:30:37.850+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:30:39.419+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:33:48.227+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:33:48.227+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:33:49.815+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:34:14.957+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:34:14.957+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:34:16.337+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:34:28.058+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:34:28.059+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:36:28.701+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:44:33.976+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T18:44:33.977+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T18:44:36.515+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T18:53:44.077+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 0  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-05-02T19:04:43.631+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T19:04:43.633+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T19:04:45.758+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T19:06:24.001+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T19:06:24.002+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32
+2024-05-02T19:06:25.679+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:5004"}
+2024-05-02T19:07:42.934+0500	INFO	kafka/producer.go:35	kafka investmentCreated message{partition 11 0  <nil>} {offset 11 6  <nil>} {key 15 0 api.create.user <nil>} {value 15 0 {"id":"","name":"string","last_name":"string","email":"string","password":"string"} <nil>}
+2024-05-02T19:59:24.556+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-02T19:59:24.560+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/abudlaziz/project/go/src/exam_5/api_gateway/cmd/app/main.go:32

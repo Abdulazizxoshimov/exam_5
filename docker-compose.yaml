@@ -1,0 +1,149 @@
+version: '3.8'
+
+services:
+  db:
+    container_name: db
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 4444
+      PGDATA: /data/postgres
+      POSTGRES_DB: examdb
+    volumes:
+      - db:/data/postgres
+    ports:
+      - "5333:5333"  # PostgreSQL port
+    networks:
+      - db
+    
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d postgres"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # kafka:
+  #   container_name: kafka
+  #   image: wurstmeister/kafka:latest
+  #   ports:
+  #     - "9091:9091"  # Kafka port
+  #   environment:
+  #     KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+  #     KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+  #     KAFKA_CREATE_TOPICS: "topic1:1:1"
+  #   networks:
+  #     - db
+  #   depends_on:
+  #     - zookeeper
+  
+
+  # zookeeper:
+  #   container_name: zookeeper
+  #   image: wurstmeister/zookeeper:latest
+  #   ports:
+  #     - "2182:2182"  # Zookeeper port
+  #   networks:
+  #     - db
+  #   restart: unless-stopped
+
+  jaeger-all-in-one:
+    container_name: jaeger-all-in-one
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "6833:6833/udp"
+      - "16688:16688"
+      - "14270:14270"
+      - "14252:14252"
+    networks:
+      - db
+    
+
+  otel-collector:
+    container_name: otel-collector
+    image: ${OTELCOL_IMG}
+    command: ["--config=/etc/otel-collector-config.yaml", "${OTELCOL_ARGS}"]
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml
+    ports:
+      - "4319:4319" # OTLP gRPC receiver
+    depends_on:
+      - jaeger-all-in-one
+    networks:
+      - db
+    
+
+  client-service:
+    container_name: client-service
+    build: ./clientService
+    depends_on:
+      - db
+    ports:
+      - "5000:5000"
+    networks:
+      - db
+    
+
+  job-service:
+    container_name: job-service
+    build: ./jobsService
+    depends_on:
+      - client-service
+      - db
+    ports:
+      - "5001:5001"
+    networks:
+      - db
+    
+
+  redisdb:
+    container_name: redisdb
+    image: redis
+    ports:
+      - "6381:6381"
+    networks:
+      - db
+    restart: unless-stopped
+
+  api:
+    container_name: api_gateway
+    build: ./api_gateway
+    depends_on:
+      - redisdb
+      - client-service
+      - job-service
+    ports:
+      - "5004:5004"
+    networks:
+      - db
+    
+
+  admin_api:
+    container_name: admin_api_gateway
+    build: ./admin_api_gateway
+    depends_on:
+      - redisdb
+      - client-service
+      - job-service
+    ports:
+      - "5003:5003"
+    networks:
+      - db
+    
+
+  migrate:
+    image: migrate/migrate
+    volumes:
+      - ./migrations:/migrations
+    command: ["-path", "/migrations", "-database",  "postgres://postgres:4444@db:5432/examdb?sslmode=disable", "up"]
+    depends_on:
+      - db
+    networks:
+      - db
+    
+
+networks:
+  db:
+    driver: bridge
+
+volumes:
+  db:

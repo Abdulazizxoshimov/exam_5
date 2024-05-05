@@ -1,0 +1,728 @@
+2024-05-01T10:10:21.671+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T10:13:52.017+0500	INFO	app/root.go:37	user service stops
+2024-05-01T10:20:27.148+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T10:21:01.191+0500	ERROR	service/client.go:54	user.Create	{"error": "ERROR: relation \"users\" does not exist (SQLSTATE 42P01)"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Create
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:54
+exam_5/clientService/genproto/clientProto._UserService_Create_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1001
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Create_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1003
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-01T10:21:01.191+0500	ERROR	zap/options.go:212	finished unary call with code Internal	{"grpc.start_time": "2024-05-01T10:21:01+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:49516", "error": "rpc error: code = Internal desc = Internal", "grpc.code": "Internal", "grpc.time_ms": 2.07}
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.DefaultMessageProducer
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/options.go:212
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:39
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Create_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1003
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-01T10:24:31.642+0500	INFO	app/root.go:37	user service stops
+2024-05-01T10:24:34.202+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T10:24:38.661+0500	ERROR	service/client.go:54	user.Create	{"error": "ERROR: relation \"users\" does not exist (SQLSTATE 42P01)"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Create
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:54
+exam_5/clientService/genproto/clientProto._UserService_Create_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1001
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Create_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1003
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-01T10:24:38.661+0500	ERROR	zap/options.go:212	finished unary call with code Internal	{"grpc.start_time": "2024-05-01T10:24:38+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:46306", "error": "rpc error: code = Internal desc = Internal", "grpc.code": "Internal", "grpc.time_ms": 1.386}
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.DefaultMessageProducer
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/options.go:212
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:39
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Create_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1003
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-01T10:25:23.341+0500	INFO	app/root.go:37	user service stops
+2024-05-01T10:25:24.858+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T10:25:28.445+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:25:28+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:41604", "grpc.code": "OK", "grpc.time_ms": 3.62}
+2024-05-01T10:26:05.828+0500	INFO	app/root.go:37	user service stops
+2024-05-01T10:26:55.070+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T10:26:58.118+0500	ERROR	service/client.go:97	user.Get	{"error": "object not found"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Get
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:97
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1019
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1021
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-01T10:26:58.118+0500	INFO	zap/options.go:212	finished unary call with code NotFound	{"grpc.start_time": "2024-05-01T10:26:58+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:49368", "error": "rpc error: code = NotFound desc = object not found", "grpc.code": "NotFound", "grpc.time_ms": 4.553}
+2024-05-01T10:32:04.858+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:32:04+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:45326", "grpc.code": "OK", "grpc.time_ms": 0.881}
+2024-05-01T10:32:10.198+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:32:10+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "List", "peer.address": "127.0.0.1:58754", "grpc.code": "OK", "grpc.time_ms": 0.521}
+2024-05-01T10:32:21.152+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:32:21+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Update", "peer.address": "127.0.0.1:43524", "grpc.code": "OK", "grpc.time_ms": 4.276}
+2024-05-01T10:32:34.497+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:32:34+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Delete", "peer.address": "127.0.0.1:36118", "grpc.code": "OK", "grpc.time_ms": 3.198}
+2024-05-01T10:49:37.574+0500	INFO	app/root.go:37	user service stops
+2024-05-01T10:49:43.672+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T10:49:45.841+0500	INFO	app/root.go:37	user service stops
+2024-05-01T10:53:10.858+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T10:55:32.533+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:32+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:47110", "grpc.code": "OK", "grpc.time_ms": 1.798}
+2024-05-01T10:55:38.314+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:38+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:51740", "grpc.code": "OK", "grpc.time_ms": 0.374}
+2024-05-01T10:55:43.780+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:43+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:51744", "grpc.code": "OK", "grpc.time_ms": 0.692}
+2024-05-01T10:55:52.736+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:52+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35520", "grpc.code": "OK", "grpc.time_ms": 0.663}
+2024-05-01T10:55:53.494+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:53+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35534", "grpc.code": "OK", "grpc.time_ms": 0.438}
+2024-05-01T10:55:53.802+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:53+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35550", "grpc.code": "OK", "grpc.time_ms": 0.669}
+2024-05-01T10:55:54.034+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35552", "grpc.code": "OK", "grpc.time_ms": 0.612}
+2024-05-01T10:55:54.235+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35554", "grpc.code": "OK", "grpc.time_ms": 0.504}
+2024-05-01T10:55:54.402+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35564", "grpc.code": "OK", "grpc.time_ms": 0.413}
+2024-05-01T10:55:54.577+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35580", "grpc.code": "OK", "grpc.time_ms": 0.535}
+2024-05-01T10:55:54.744+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35584", "grpc.code": "OK", "grpc.time_ms": 0.355}
+2024-05-01T10:55:54.905+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35592", "grpc.code": "OK", "grpc.time_ms": 0.485}
+2024-05-01T10:55:55.058+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:55+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35608", "grpc.code": "OK", "grpc.time_ms": 0.379}
+2024-05-01T10:55:55.445+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:55+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35612", "grpc.code": "OK", "grpc.time_ms": 0.502}
+2024-05-01T10:55:55.729+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:55+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35628", "grpc.code": "OK", "grpc.time_ms": 0.322}
+2024-05-01T10:55:56.006+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:56+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35640", "grpc.code": "OK", "grpc.time_ms": 0.388}
+2024-05-01T10:55:56.279+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:56+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35654", "grpc.code": "OK", "grpc.time_ms": 0.419}
+2024-05-01T10:55:56.554+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:56+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54460", "grpc.code": "OK", "grpc.time_ms": 0.448}
+2024-05-01T10:55:56.860+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T10:55:56+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54466", "grpc.code": "OK", "grpc.time_ms": 0.468}
+2024-05-01T11:14:50.696+0500	INFO	app/root.go:37	user service stops
+2024-05-01T11:23:01.524+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50025"}
+2024-05-01T11:24:29.329+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T11:24:29+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:39070", "grpc.code": "OK", "grpc.time_ms": 2.294}
+2024-05-01T11:25:45.963+0500	INFO	app/root.go:37	user service stops
+2024-05-01T15:39:29.129+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50026"}
+2024-05-01T15:39:49.281+0500	ERROR	service/client.go:95	user.Get	{"error": "object not found"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Get
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:95
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1041
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1043
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-01T15:39:49.281+0500	INFO	zap/options.go:212	finished unary call with code NotFound	{"grpc.start_time": "2024-05-01T15:39:49+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "error": "rpc error: code = NotFound desc = object not found", "grpc.code": "NotFound", "grpc.time_ms": 1.155}
+2024-05-01T15:47:22.373+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:47:22+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:45442", "grpc.code": "OK", "grpc.time_ms": 3.406}
+2024-05-01T15:48:35.785+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:48:35+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.576}
+2024-05-01T15:52:22.115+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:52:22+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:47242", "grpc.code": "OK", "grpc.time_ms": 3.252}
+2024-05-01T15:53:39.959+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.547}
+2024-05-01T15:53:39.960+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.568}
+2024-05-01T15:53:39.960+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.434}
+2024-05-01T15:53:39.961+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.365}
+2024-05-01T15:53:39.962+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.336}
+2024-05-01T15:53:39.962+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.27}
+2024-05-01T15:53:39.963+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.325}
+2024-05-01T15:53:39.964+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.598}
+2024-05-01T15:53:39.965+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.679}
+2024-05-01T15:53:39.966+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:53:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.554}
+2024-05-01T15:54:40.724+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.725}
+2024-05-01T15:54:40.725+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.622}
+2024-05-01T15:54:40.727+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.72}
+2024-05-01T15:54:40.727+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.497}
+2024-05-01T15:54:40.728+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.543}
+2024-05-01T15:54:40.729+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.536}
+2024-05-01T15:54:40.730+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.634}
+2024-05-01T15:54:40.731+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.34}
+2024-05-01T15:54:40.732+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.342}
+2024-05-01T15:54:40.732+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T15:54:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60100", "grpc.code": "OK", "grpc.time_ms": 0.335}
+2024-05-01T17:18:30.648+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":50026"}
+2024-05-01T17:18:30.648+0500	ERROR	app/root.go:29	error while run app	{"error": "gRPC fatal to serve grpc server over :50026 gRPC fatal to listen on :50026 listen tcp :50026: bind: address already in use"}
+exam_5/clientService/cmd/app.init.func2.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/cmd/app/root.go:29
+2024-05-01T17:19:03.992+0500	INFO	app/root.go:37	user service stops
+2024-05-01T17:24:17.787+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-01T17:27:31.704+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T17:27:31+05:00", "grpc.request.deadline": "2024-05-01T17:27:41+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:44980", "grpc.code": "OK", "grpc.time_ms": 4.137}
+2024-05-01T17:27:50.878+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T17:27:50+05:00", "grpc.request.deadline": "2024-05-01T17:27:57+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:44980", "grpc.code": "OK", "grpc.time_ms": 1.073}
+2024-05-01T17:28:53.652+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T17:28:53+05:00", "grpc.request.deadline": "2024-05-01T17:29:00+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Update", "peer.address": "127.0.0.1:44980", "grpc.code": "OK", "grpc.time_ms": 3.917}
+2024-05-01T17:42:51.170+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-01T18:48:55.712+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T18:48:55+05:00", "grpc.request.deadline": "2024-05-01T18:49:02+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:48078", "grpc.code": "OK", "grpc.time_ms": 4.975}
+2024-05-01T18:50:42.985+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T18:50:42+05:00", "grpc.request.deadline": "2024-05-01T18:50:49+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:45598", "grpc.code": "OK", "grpc.time_ms": 0.505}
+2024-05-01T19:06:08.964+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:06:08+05:00", "grpc.request.deadline": "2024-05-01T19:06:15+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:43450", "grpc.code": "OK", "grpc.time_ms": 0.53}
+2024-05-01T19:07:54.095+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:07:54+05:00", "grpc.request.deadline": "2024-05-01T19:08:01+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54294", "grpc.code": "OK", "grpc.time_ms": 0.751}
+2024-05-01T19:07:54.940+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:07:54+05:00", "grpc.request.deadline": "2024-05-01T19:08:01+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54294", "grpc.code": "OK", "grpc.time_ms": 0.715}
+2024-05-01T19:07:55.154+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:07:55+05:00", "grpc.request.deadline": "2024-05-01T19:08:02+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54294", "grpc.code": "OK", "grpc.time_ms": 0.594}
+2024-05-01T19:07:55.352+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:07:55+05:00", "grpc.request.deadline": "2024-05-01T19:08:02+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54294", "grpc.code": "OK", "grpc.time_ms": 0.502}
+2024-05-01T19:07:55.530+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:07:55+05:00", "grpc.request.deadline": "2024-05-01T19:08:02+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54294", "grpc.code": "OK", "grpc.time_ms": 0.433}
+2024-05-01T19:07:55.704+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:07:55+05:00", "grpc.request.deadline": "2024-05-01T19:08:02+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54294", "grpc.code": "OK", "grpc.time_ms": 0.41}
+2024-05-01T19:10:07.473+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:10:07+05:00", "grpc.request.deadline": "2024-05-01T19:10:14+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:57940", "grpc.code": "OK", "grpc.time_ms": 0.365}
+2024-05-01T19:11:07.519+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:11:07+05:00", "grpc.request.deadline": "2024-05-01T19:11:14+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:57940", "grpc.code": "OK", "grpc.time_ms": 0.448}
+2024-05-01T19:11:19.121+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:11:19+05:00", "grpc.request.deadline": "2024-05-01T19:11:26+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:57940", "grpc.code": "OK", "grpc.time_ms": 0.447}
+2024-05-01T19:11:31.764+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:11:31+05:00", "grpc.request.deadline": "2024-05-01T19:11:38+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:57940", "grpc.code": "OK", "grpc.time_ms": 0.399}
+2024-05-01T19:11:51.077+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:11:51+05:00", "grpc.request.deadline": "2024-05-01T19:11:58+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:57940", "grpc.code": "OK", "grpc.time_ms": 0.25}
+2024-05-01T19:20:09.249+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:20:09+05:00", "grpc.request.deadline": "2024-05-01T19:20:16+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:53324", "grpc.code": "OK", "grpc.time_ms": 0.274}
+2024-05-01T19:20:37.828+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:20:37+05:00", "grpc.request.deadline": "2024-05-01T19:20:44+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:53324", "grpc.code": "OK", "grpc.time_ms": 0.401}
+2024-05-01T19:22:58.522+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:22:58+05:00", "grpc.request.deadline": "2024-05-01T19:23:05+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:53324", "grpc.code": "OK", "grpc.time_ms": 0.342}
+2024-05-01T19:24:00.621+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T19:24:00+05:00", "grpc.request.deadline": "2024-05-01T19:24:07+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:60412", "grpc.code": "OK", "grpc.time_ms": 0.237}
+2024-05-01T20:05:36.455+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:05:36+05:00", "grpc.request.deadline": "2024-05-01T20:05:43+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:37230", "grpc.code": "OK", "grpc.time_ms": 3.935}
+2024-05-01T20:20:53.295+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:20:53+05:00", "grpc.request.deadline": "2024-05-01T20:21:00+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:43510", "grpc.code": "OK", "grpc.time_ms": 0.341}
+2024-05-01T20:22:24.889+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:22:24+05:00", "grpc.request.deadline": "2024-05-01T20:22:31+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:43510", "grpc.code": "OK", "grpc.time_ms": 3.327}
+2024-05-01T20:28:59.056+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:28:59+05:00", "grpc.request.deadline": "2024-05-01T20:29:06+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:48932", "grpc.code": "OK", "grpc.time_ms": 0.646}
+2024-05-01T20:31:06.224+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:31:06+05:00", "grpc.request.deadline": "2024-05-01T20:31:13+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:53468", "grpc.code": "OK", "grpc.time_ms": 0.411}
+2024-05-01T20:31:56.478+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:31:56+05:00", "grpc.request.deadline": "2024-05-01T20:32:02+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:53468", "grpc.code": "OK", "grpc.time_ms": 2.985}
+2024-05-01T20:33:11.818+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:33:11+05:00", "grpc.request.deadline": "2024-05-01T20:33:18+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:41850", "grpc.code": "OK", "grpc.time_ms": 0.582}
+2024-05-01T20:34:27.622+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:34:27+05:00", "grpc.request.deadline": "2024-05-01T20:34:33+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:41850", "grpc.code": "OK", "grpc.time_ms": 3.22}
+2024-05-01T20:34:36.519+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:34:36+05:00", "grpc.request.deadline": "2024-05-01T20:34:42+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:41850", "grpc.code": "OK", "grpc.time_ms": 3.216}
+2024-05-01T20:36:01.999+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:36:01+05:00", "grpc.request.deadline": "2024-05-01T20:36:08+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:41850", "grpc.code": "OK", "grpc.time_ms": 2.965}
+2024-05-01T20:39:31.805+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:39:31+05:00", "grpc.request.deadline": "2024-05-01T20:39:38+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:56660", "grpc.code": "OK", "grpc.time_ms": 3.569}
+2024-05-01T20:40:16.022+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:40:16+05:00", "grpc.request.deadline": "2024-05-01T20:40:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:56660", "grpc.code": "OK", "grpc.time_ms": 0.648}
+2024-05-01T20:40:54.060+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:40:54+05:00", "grpc.request.deadline": "2024-05-01T20:41:00+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:56660", "grpc.code": "OK", "grpc.time_ms": 3.005}
+2024-05-01T20:43:09.417+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:43:09+05:00", "grpc.request.deadline": "2024-05-01T20:43:15+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:48184", "grpc.code": "OK", "grpc.time_ms": 3.126}
+2024-05-01T20:52:14.774+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:52:14+05:00", "grpc.request.deadline": "2024-05-01T20:52:21+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:53374", "grpc.code": "OK", "grpc.time_ms": 0.294}
+2024-05-01T20:52:45.219+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:52:45+05:00", "grpc.request.deadline": "2024-05-01T20:52:51+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:53374", "grpc.code": "OK", "grpc.time_ms": 3.242}
+2024-05-01T20:56:59.918+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:56:59+05:00", "grpc.request.deadline": "2024-05-01T20:57:06+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:36850", "grpc.code": "OK", "grpc.time_ms": 3.518}
+2024-05-01T20:59:44.962+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T20:59:44+05:00", "grpc.request.deadline": "2024-05-01T20:59:51+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:36306", "grpc.code": "OK", "grpc.time_ms": 3.236}
+2024-05-01T21:00:40.123+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:00:40+05:00", "grpc.request.deadline": "2024-05-01T21:00:47+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:40846", "grpc.code": "OK", "grpc.time_ms": 0.402}
+2024-05-01T21:01:06.567+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:01:06+05:00", "grpc.request.deadline": "2024-05-01T21:01:12+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:40846", "grpc.code": "OK", "grpc.time_ms": 0.916}
+2024-05-01T21:02:17.171+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:02:17+05:00", "grpc.request.deadline": "2024-05-01T21:02:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:45714", "grpc.code": "OK", "grpc.time_ms": 3.186}
+2024-05-01T21:11:23.693+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:11:23+05:00", "grpc.request.deadline": "2024-05-01T21:11:29+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:59960", "grpc.code": "OK", "grpc.time_ms": 6.014}
+2024-05-01T21:11:28.659+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:11:28+05:00", "grpc.request.deadline": "2024-05-01T21:11:35+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:59960", "grpc.code": "OK", "grpc.time_ms": 1.332}
+2024-05-01T21:11:50.961+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:11:50+05:00", "grpc.request.deadline": "2024-05-01T21:11:57+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:59960", "grpc.code": "OK", "grpc.time_ms": 3.171}
+2024-05-01T21:16:55.988+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:16:55+05:00", "grpc.request.deadline": "2024-05-01T21:17:02+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:51802", "grpc.code": "OK", "grpc.time_ms": 3.185}
+2024-05-01T21:19:06.668+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:19:06+05:00", "grpc.request.deadline": "2024-05-01T21:19:12+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:40766", "grpc.code": "OK", "grpc.time_ms": 2.981}
+2024-05-01T21:25:01.643+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:25:01+05:00", "grpc.request.deadline": "2024-05-01T21:25:07+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:34510", "grpc.code": "OK", "grpc.time_ms": 1.952}
+2024-05-01T21:25:12.792+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:25:12+05:00", "grpc.request.deadline": "2024-05-01T21:25:19+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:34510", "grpc.code": "OK", "grpc.time_ms": 0.589}
+2024-05-01T21:25:39.865+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:25:39+05:00", "grpc.request.deadline": "2024-05-01T21:25:46+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:34510", "grpc.code": "OK", "grpc.time_ms": 3.462}
+2024-05-01T21:29:05.702+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:29:05+05:00", "grpc.request.deadline": "2024-05-01T21:29:11+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:58474", "grpc.code": "OK", "grpc.time_ms": 3.547}
+2024-05-01T21:36:06.318+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:36:06+05:00", "grpc.request.deadline": "2024-05-01T21:36:12+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:47414", "grpc.code": "OK", "grpc.time_ms": 0.943}
+2024-05-01T21:36:56.972+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:36:56+05:00", "grpc.request.deadline": "2024-05-01T21:37:03+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:45106", "grpc.code": "OK", "grpc.time_ms": 2.839}
+2024-05-01T21:37:18.837+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:37:18+05:00", "grpc.request.deadline": "2024-05-01T21:37:25+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:49314", "grpc.code": "OK", "grpc.time_ms": 3.19}
+2024-05-01T21:37:46.012+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:37:46+05:00", "grpc.request.deadline": "2024-05-01T21:37:53+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:49314", "grpc.code": "OK", "grpc.time_ms": 0.598}
+2024-05-01T21:38:13.723+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:38:13+05:00", "grpc.request.deadline": "2024-05-01T21:38:19+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:49314", "grpc.code": "OK", "grpc.time_ms": 0.788}
+2024-05-01T21:38:47.345+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:38:47+05:00", "grpc.request.deadline": "2024-05-01T21:38:53+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:59222", "grpc.code": "OK", "grpc.time_ms": 1.014}
+2024-05-01T21:39:12.138+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:39:12+05:00", "grpc.request.deadline": "2024-05-01T21:39:18+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:58278", "grpc.code": "OK", "grpc.time_ms": 3.088}
+2024-05-01T21:46:32.457+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:46:32+05:00", "grpc.request.deadline": "2024-05-01T21:46:39+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:43872", "grpc.code": "OK", "grpc.time_ms": 0.523}
+2024-05-01T21:50:28.864+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:50:28+05:00", "grpc.request.deadline": "2024-05-01T21:50:35+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:43872", "grpc.code": "OK", "grpc.time_ms": 0.58}
+2024-05-01T21:51:40.781+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T21:51:40+05:00", "grpc.request.deadline": "2024-05-01T21:51:47+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:43872", "grpc.code": "OK", "grpc.time_ms": 0.616}
+2024-05-01T22:00:44.154+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T22:00:44+05:00", "grpc.request.deadline": "2024-05-01T22:00:51+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:34332", "grpc.code": "OK", "grpc.time_ms": 0.589}
+2024-05-01T22:07:20.772+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T22:07:20+05:00", "grpc.request.deadline": "2024-05-01T22:07:27+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:37562", "grpc.code": "OK", "grpc.time_ms": 0.582}
+2024-05-01T22:18:10.572+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T22:18:10+05:00", "grpc.request.deadline": "2024-05-01T22:18:17+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54284", "grpc.code": "OK", "grpc.time_ms": 8.716}
+2024-05-01T22:58:15.880+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T22:58:15+05:00", "grpc.request.deadline": "2024-05-01T22:58:22+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:35500", "grpc.code": "OK", "grpc.time_ms": 6.248}
+2024-05-01T23:08:23.005+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-01T23:08:23+05:00", "grpc.request.deadline": "2024-05-01T23:08:30+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:54700", "grpc.code": "OK", "grpc.time_ms": 0.556}
+2024-05-02T08:48:03.992+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T08:48:03+05:00", "grpc.request.deadline": "2024-05-02T08:48:10+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:34474", "grpc.code": "OK", "grpc.time_ms": 0.598}
+2024-05-02T08:49:54.589+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T08:49:54+05:00", "grpc.request.deadline": "2024-05-02T08:50:01+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:34474", "grpc.code": "OK", "grpc.time_ms": 0.613}
+2024-05-02T10:51:43.955+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T10:51:43+05:00", "grpc.request.deadline": "2024-05-02T10:51:50+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:59790", "grpc.code": "OK", "grpc.time_ms": 5.188}
+2024-05-02T10:51:43.956+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T10:51:43+05:00", "grpc.request.deadline": "2024-05-02T10:51:50+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:59790", "grpc.code": "OK", "grpc.time_ms": 0.204}
+2024-05-02T10:51:43.957+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T10:51:43+05:00", "grpc.request.deadline": "2024-05-02T10:51:50+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:59790", "grpc.code": "OK", "grpc.time_ms": 0.197}
+2024-05-02T10:51:43.957+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T10:51:43+05:00", "grpc.request.deadline": "2024-05-02T10:51:50+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:59790", "grpc.code": "OK", "grpc.time_ms": 0.194}
+2024-05-02T10:51:43.957+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T10:51:43+05:00", "grpc.request.deadline": "2024-05-02T10:51:50+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:59790", "grpc.code": "OK", "grpc.time_ms": 0.194}
+2024-05-02T11:41:18.909+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T11:41:18+05:00", "grpc.request.deadline": "2024-05-02T11:41:25+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:50304", "grpc.code": "OK", "grpc.time_ms": 4.832}
+2024-05-02T11:42:44.984+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T11:42:44+05:00", "grpc.request.deadline": "2024-05-02T11:42:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:50304", "grpc.code": "OK", "grpc.time_ms": 2.278}
+2024-05-02T11:45:14.792+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T11:45:14+05:00", "grpc.request.deadline": "2024-05-02T11:45:24+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:42252", "grpc.code": "OK", "grpc.time_ms": 3.254}
+2024-05-02T12:37:40.633+0500	INFO	app/root.go:37	user service stops
+2024-05-02T14:41:59.557+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T14:42:29.873+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T14:42:29+05:00", "grpc.request.deadline": "2024-05-02T14:42:36+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:59890", "grpc.code": "OK", "grpc.time_ms": 1.928}
+2024-05-02T15:52:06.123+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T15:52:06+05:00", "grpc.request.deadline": "2024-05-02T15:52:13+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:44820", "grpc.code": "OK", "grpc.time_ms": 17.272}
+2024-05-02T15:52:49.727+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T15:52:49+05:00", "grpc.request.deadline": "2024-05-02T15:52:56+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:44820", "grpc.code": "OK", "grpc.time_ms": 0.392}
+2024-05-02T15:53:03.529+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T15:53:03+05:00", "grpc.request.deadline": "2024-05-02T15:53:10+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:44820", "grpc.code": "OK", "grpc.time_ms": 0.439}
+2024-05-02T16:08:08.570+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:08:08+05:00", "grpc.request.deadline": "2024-05-02T16:08:15+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:50936", "grpc.code": "OK", "grpc.time_ms": 0.607}
+2024-05-02T16:10:54.464+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:10:54+05:00", "grpc.request.deadline": "2024-05-02T16:11:01+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:46590", "grpc.code": "OK", "grpc.time_ms": 1.614}
+2024-05-02T16:33:49.783+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:33:49+05:00", "grpc.request.deadline": "2024-05-02T16:33:56+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:52382", "grpc.code": "OK", "grpc.time_ms": 0.435}
+2024-05-02T16:39:19.927+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:39:19+05:00", "grpc.request.deadline": "2024-05-02T16:39:26+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:47524", "grpc.code": "OK", "grpc.time_ms": 0.986}
+2024-05-02T16:42:03.583+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:42:03+05:00", "grpc.request.deadline": "2024-05-02T16:42:10+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:43778", "grpc.code": "OK", "grpc.time_ms": 0.943}
+2024-05-02T16:43:04.374+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:43:04+05:00", "grpc.request.deadline": "2024-05-02T16:43:11+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60430", "grpc.code": "OK", "grpc.time_ms": 0.377}
+2024-05-02T16:45:18.256+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:45:18+05:00", "grpc.request.deadline": "2024-05-02T16:45:25+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:58202", "grpc.code": "OK", "grpc.time_ms": 0.513}
+2024-05-02T16:47:21.263+0500	INFO	app/root.go:37	user service stops
+2024-05-02T16:47:22.827+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T16:47:26.333+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:47:26+05:00", "grpc.request.deadline": "2024-05-02T16:47:33+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:46894", "grpc.code": "OK", "grpc.time_ms": 1.409}
+2024-05-02T16:47:26.337+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:47:26+05:00", "grpc.request.deadline": "2024-05-02T16:47:33+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:46894", "grpc.code": "OK", "grpc.time_ms": 3.218}
+2024-05-02T16:50:03.314+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:50:03+05:00", "grpc.request.deadline": "2024-05-02T16:50:10+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:46894", "grpc.code": "OK", "grpc.time_ms": 0.91}
+2024-05-02T16:51:00.623+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:51:00+05:00", "grpc.request.deadline": "2024-05-02T16:51:07+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:37310", "grpc.code": "OK", "grpc.time_ms": 0.585}
+2024-05-02T16:51:49.788+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:51:49+05:00", "grpc.request.deadline": "2024-05-02T16:51:56+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60456", "grpc.code": "OK", "grpc.time_ms": 0.41}
+2024-05-02T16:54:26.978+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T16:54:26+05:00", "grpc.request.deadline": "2024-05-02T16:54:33+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:35444", "grpc.code": "OK", "grpc.time_ms": 0.454}
+2024-05-02T17:02:39.502+0500	INFO	app/root.go:37	user service stops
+2024-05-02T17:02:40.982+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T17:24:38.705+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:24:38+05:00", "grpc.request.deadline": "2024-05-02T17:24:45+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:60570", "grpc.code": "OK", "grpc.time_ms": 2.257}
+2024-05-02T17:25:16.538+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:25:16+05:00", "grpc.request.deadline": "2024-05-02T17:25:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:60570", "grpc.code": "OK", "grpc.time_ms": 3.541}
+2024-05-02T17:25:36.663+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:25:36+05:00", "grpc.request.deadline": "2024-05-02T17:25:43+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60570", "grpc.code": "OK", "grpc.time_ms": 0.681}
+2024-05-02T17:26:04.327+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:26:04+05:00", "grpc.request.deadline": "2024-05-02T17:26:11+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60570", "grpc.code": "OK", "grpc.time_ms": 0.797}
+2024-05-02T17:26:04.332+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:26:04+05:00", "grpc.request.deadline": "2024-05-02T17:26:11+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:60570", "grpc.code": "OK", "grpc.time_ms": 3.023}
+2024-05-02T17:32:53.438+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:32:53+05:00", "grpc.request.deadline": "2024-05-02T17:33:00+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:36678", "grpc.code": "OK", "grpc.time_ms": 0.597}
+2024-05-02T17:32:53.442+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:32:53+05:00", "grpc.request.deadline": "2024-05-02T17:33:00+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:36678", "grpc.code": "OK", "grpc.time_ms": 2.957}
+2024-05-02T17:34:26.913+0500	INFO	app/root.go:37	user service stops
+2024-05-02T17:34:28.467+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T17:35:13.412+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:35:13+05:00", "grpc.request.deadline": "2024-05-02T17:35:20+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:36626", "grpc.code": "OK", "grpc.time_ms": 1.858}
+2024-05-02T17:35:13.416+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:35:13+05:00", "grpc.request.deadline": "2024-05-02T17:35:20+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:36626", "grpc.code": "OK", "grpc.time_ms": 3.214}
+2024-05-02T17:36:10.150+0500	INFO	app/root.go:37	user service stops
+2024-05-02T17:36:11.652+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T17:36:16.315+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:36:16+05:00", "grpc.request.deadline": "2024-05-02T17:36:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:40786", "grpc.code": "OK", "grpc.time_ms": 1.54}
+2024-05-02T17:36:16.319+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:36:16+05:00", "grpc.request.deadline": "2024-05-02T17:36:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:40786", "grpc.code": "OK", "grpc.time_ms": 3.203}
+2024-05-02T17:37:09.071+0500	INFO	app/root.go:37	user service stops
+2024-05-02T17:37:10.700+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T17:37:16.069+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:37:16+05:00", "grpc.request.deadline": "2024-05-02T17:37:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:60902", "grpc.code": "OK", "grpc.time_ms": 1.98}
+2024-05-02T17:37:16.074+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:37:16+05:00", "grpc.request.deadline": "2024-05-02T17:37:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:60902", "grpc.code": "OK", "grpc.time_ms": 3.473}
+2024-05-02T17:38:13.243+0500	INFO	app/root.go:37	user service stops
+2024-05-02T17:38:14.795+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T17:38:19.149+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:38:19+05:00", "grpc.request.deadline": "2024-05-02T17:38:26+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:39194", "grpc.code": "OK", "grpc.time_ms": 1.857}
+2024-05-02T17:38:19.153+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:38:19+05:00", "grpc.request.deadline": "2024-05-02T17:38:26+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:39194", "grpc.code": "OK", "grpc.time_ms": 3.217}
+2024-05-02T17:40:26.995+0500	INFO	app/root.go:37	user service stops
+2024-05-02T17:40:28.738+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T17:40:39.621+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:40:39+05:00", "grpc.request.deadline": "2024-05-02T17:40:46+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 1.707}
+2024-05-02T17:41:01.370+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:41:01+05:00", "grpc.request.deadline": "2024-05-02T17:41:08+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 3.397}
+2024-05-02T17:41:26.758+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:41:26+05:00", "grpc.request.deadline": "2024-05-02T17:41:33+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 0.919}
+2024-05-02T17:41:26.762+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:41:26+05:00", "grpc.request.deadline": "2024-05-02T17:41:33+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 3.043}
+2024-05-02T17:47:00.460+0500	ERROR	service/client.go:155	user.update	{"error": "no sql rows"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Update
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:155
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1077
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1079
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T17:47:00.460+0500	ERROR	zap/options.go:212	finished unary call with code Internal	{"grpc.start_time": "2024-05-02T17:47:00+05:00", "grpc.request.deadline": "2024-05-02T17:47:07+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Update", "peer.address": "127.0.0.1:55000", "error": "rpc error: code = Internal desc = Internal", "grpc.code": "Internal", "grpc.time_ms": 0.93}
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.DefaultMessageProducer
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/options.go:212
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:39
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1079
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T17:47:47.498+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:47:47+05:00", "grpc.request.deadline": "2024-05-02T17:47:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 0.765}
+2024-05-02T17:47:47.503+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:47:47+05:00", "grpc.request.deadline": "2024-05-02T17:47:54+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 3.29}
+2024-05-02T17:47:54.896+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:47:54+05:00", "grpc.request.deadline": "2024-05-02T17:48:01+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "IsUnique", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 0.56}
+2024-05-02T17:48:01.950+0500	ERROR	service/client.go:93	user.Get	{"error": "object not found"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Get
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:93
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1041
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1043
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T17:48:01.950+0500	INFO	zap/options.go:212	finished unary call with code NotFound	{"grpc.start_time": "2024-05-02T17:48:01+05:00", "grpc.request.deadline": "2024-05-02T17:48:08+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:55000", "error": "rpc error: code = NotFound desc = object not found", "grpc.code": "NotFound", "grpc.time_ms": 0.647}
+2024-05-02T17:48:18.919+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T17:48:18+05:00", "grpc.request.deadline": "2024-05-02T17:48:25+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:55000", "grpc.code": "OK", "grpc.time_ms": 3.744}
+2024-05-02T17:53:58.490+0500	ERROR	service/client.go:93	user.Get	{"error": "object not found"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Get
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:93
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1041
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1043
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T17:53:58.490+0500	INFO	zap/options.go:212	finished unary call with code NotFound	{"grpc.start_time": "2024-05-02T17:53:58+05:00", "grpc.request.deadline": "2024-05-02T17:54:05+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:36000", "error": "rpc error: code = NotFound desc = object not found", "grpc.code": "NotFound", "grpc.time_ms": 1.355}
+2024-05-02T17:54:16.425+0500	ERROR	service/client.go:155	user.update	{"error": "no sql rows"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Update
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:155
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1077
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1079
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T17:54:16.425+0500	ERROR	zap/options.go:212	finished unary call with code Internal	{"grpc.start_time": "2024-05-02T17:54:16+05:00", "grpc.request.deadline": "2024-05-02T17:54:23+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Update", "peer.address": "127.0.0.1:36000", "error": "rpc error: code = Internal desc = Internal", "grpc.code": "Internal", "grpc.time_ms": 0.92}
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.DefaultMessageProducer
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/options.go:212
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:39
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1079
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T18:14:48.665+0500	INFO	app/root.go:37	user service stops
+2024-05-02T18:18:42.917+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T18:19:20.630+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:19:20+05:00", "grpc.request.deadline": "2024-05-02T18:19:27+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:53996", "grpc.code": "OK", "grpc.time_ms": 1.44}
+2024-05-02T18:19:20.634+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:19:20+05:00", "grpc.request.deadline": "2024-05-02T18:19:27+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:53996", "grpc.code": "OK", "grpc.time_ms": 2.813}
+2024-05-02T18:22:22.184+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:22:22+05:00", "grpc.request.deadline": "2024-05-02T18:22:32+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:53996", "grpc.code": "OK", "grpc.time_ms": 3.147}
+2024-05-02T18:22:36.734+0500	ERROR	service/client.go:76	user.Delete	{"error": "no sql rows"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Delete
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:76
+exam_5/clientService/genproto/clientProto._UserService_Delete_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1113
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Delete_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1115
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T18:22:36.734+0500	ERROR	zap/options.go:212	finished unary call with code Internal	{"grpc.start_time": "2024-05-02T18:22:36+05:00", "grpc.request.deadline": "2024-05-02T18:22:43+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Delete", "peer.address": "127.0.0.1:53996", "error": "rpc error: code = Internal desc = Internal", "grpc.code": "Internal", "grpc.time_ms": 0.844}
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.DefaultMessageProducer
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/options.go:212
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:39
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Delete_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1115
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T18:22:45.032+0500	ERROR	service/client.go:93	user.Get	{"error": "object not found"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Get
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:93
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1041
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Get_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1043
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T18:22:45.032+0500	INFO	zap/options.go:212	finished unary call with code NotFound	{"grpc.start_time": "2024-05-02T18:22:45+05:00", "grpc.request.deadline": "2024-05-02T18:22:52+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:53996", "error": "rpc error: code = NotFound desc = object not found", "grpc.code": "NotFound", "grpc.time_ms": 0.589}
+2024-05-02T18:22:54.287+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:22:54+05:00", "grpc.request.deadline": "2024-05-02T18:23:01+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "List", "peer.address": "127.0.0.1:53996", "grpc.code": "OK", "grpc.time_ms": 0.455}
+2024-05-02T18:23:12.733+0500	ERROR	service/client.go:155	user.update	{"error": "no sql rows"}
+exam_5/clientService/internal/delivery/grpc/service.contentRPC.Update
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/service/client.go:155
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler.func1
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1077
+exam_5/clientService/internal/app.NewApp.UnaryInterceptorData.func6
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:34
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/recovery/interceptors.go:33
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:31
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1079
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T18:23:12.733+0500	ERROR	zap/options.go:212	finished unary call with code Internal	{"grpc.start_time": "2024-05-02T18:23:12+05:00", "grpc.request.deadline": "2024-05-02T18:23:19+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Update", "peer.address": "127.0.0.1:53996", "error": "rpc error: code = Internal desc = Internal", "grpc.code": "Internal", "grpc.time_ms": 0.844}
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.DefaultMessageProducer
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/options.go:212
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/logging/zap/server_interceptors.go:39
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5.1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:48
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/tags/interceptors.go:23
+exam_5/clientService/internal/app.NewApp.ChainUnaryServer.func5
+	/home/abudlaziz/project/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.4.0/chain.go:53
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7.1.1
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:16
+exam_5/clientService/internal/app.NewApp.UnaryInterceptor.func7
+	/home/abudlaziz/project/go/src/exam_5/clientService/internal/delivery/grpc/server/midleware.go:23
+exam_5/clientService/genproto/clientProto._UserService_Update_Handler
+	/home/abudlaziz/project/go/src/exam_5/clientService/genproto/clientProto/clien.pb.go:1079
+google.golang.org/grpc.(*Server).processUnaryRPC
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1369
+google.golang.org/grpc.(*Server).handleStream
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1780
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	/home/abudlaziz/project/go/pkg/mod/google.golang.org/grpc@v1.63.2/server.go:1019
+2024-05-02T18:24:22.672+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:24:22+05:00", "grpc.request.deadline": "2024-05-02T18:24:29+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:32972", "grpc.code": "OK", "grpc.time_ms": 0.932}
+2024-05-02T18:30:45.817+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:30:45+05:00", "grpc.request.deadline": "2024-05-02T18:30:55+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:55822", "grpc.code": "OK", "grpc.time_ms": 2.939}
+2024-05-02T18:33:53.862+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:33:53+05:00", "grpc.request.deadline": "2024-05-02T18:34:03+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:48916", "grpc.code": "OK", "grpc.time_ms": 3.231}
+2024-05-02T18:34:19.047+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:34:19+05:00", "grpc.request.deadline": "2024-05-02T18:34:29+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:44406", "grpc.code": "OK", "grpc.time_ms": 3.358}
+2024-05-02T18:36:30.980+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:36:30+05:00", "grpc.request.deadline": "2024-05-02T18:36:40+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:57760", "grpc.code": "OK", "grpc.time_ms": 0.806}
+2024-05-02T18:44:38.560+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:44:38+05:00", "grpc.request.deadline": "2024-05-02T18:44:48+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:51634", "grpc.code": "OK", "grpc.time_ms": 4.473}
+2024-05-02T18:53:43.041+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T18:53:43+05:00", "grpc.request.deadline": "2024-05-02T18:53:53+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Create", "peer.address": "127.0.0.1:51634", "grpc.code": "OK", "grpc.time_ms": 2.798}
+2024-05-02T18:58:20.798+0500	INFO	app/root.go:37	user service stops
+2024-05-02T19:06:16.457+0500	INFO	app/app.go:118	gRPC Server Listening	{"url": ":5000"}
+2024-05-02T19:06:27.361+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T19:06:27+05:00", "grpc.request.deadline": "2024-05-02T19:06:34+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "Get", "peer.address": "127.0.0.1:36204", "grpc.code": "OK", "grpc.time_ms": 1.332}
+2024-05-02T19:06:27.363+0500	INFO	zap/options.go:212	finished unary call with code OK	{"grpc.start_time": "2024-05-02T19:06:27+05:00", "grpc.request.deadline": "2024-05-02T19:06:34+05:00", "system": "grpc", "span.kind": "server", "grpc.service": "UserService", "grpc.method": "UpdateUserRefreshToken", "peer.address": "127.0.0.1:36204", "grpc.code": "OK", "grpc.time_ms": 1.045}
+2024-05-02T19:09:04.916+0500	INFO	app/root.go:37	user service stops

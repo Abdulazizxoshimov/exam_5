@@ -1,0 +1,76 @@
+syntax = "proto3";
+
+service JobService{
+    rpc Create(Job)returns (Job);
+    rpc Get(JobGetRequest)returns (Job);
+    rpc GetAll(JobGetAllRequest)returns (JobGetAllResponse);
+    rpc Update(Job) returns (Job);
+    rpc Delete(JobDeleteRequest)returns (JobDeleteResponse);
+    rpc GetAllJobWithOwner(JobGetAllRequest)returns(GetAllJobByClientIdResponse);
+    }
+
+
+message Job{
+        string  Id = 1;
+	string Client_id = 2;
+	string Name = 3;
+	string Comp_name = 4;
+	bool   Status = 5;
+	string StartDate = 6;
+	string Location = 7;
+	string EndDate = 8;
+	string Created_at = 9;
+	string Updated_at = 10;
+}
+
+message JobGetRequest{
+        string id = 1; 
+}
+
+
+
+
+message JobGetAllRequest{
+      int32 page = 1;
+      int32 limit = 2;
+      map<string, string> filter=3;
+
+}
+message JobGetAllResponse{
+        repeated Job jobs = 1;
+}
+message GetAllJobByClientIdResponse{
+        repeated JobWithOwner jobs = 1;
+}
+
+message JobDeleteRequest{
+     string id = 1;
+}
+message JobDeleteResponse{
+     string msg = 1;
+}
+message Owner {
+        string id = 1;
+    string name = 2;
+    string last_name = 3;
+    string email = 4;
+    string password = 5;
+    string created_at =6;
+    string updated_at = 7;
+    string deleted_at = 8;
+    string refresh_token = 9;
+    string role = 10;
+}
+message JobWithOwner{
+        string  Id = 1;
+	string Client_id = 2;
+	string Name = 3;
+	string Comp_name = 4;
+	bool   Status = 5;
+	string StartDate = 6;
+	string Location = 7;
+	string EndDate = 8;
+	string Created_at = 9;
+	string Updated_at = 10;
+        Owner owner = 11;
+}
